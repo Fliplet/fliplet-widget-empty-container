@@ -1,0 +1,8 @@
+[data-widget-package="com.fliplet.empty-state-container"] {
+  display: none;
+}
+
+[data-widget-package="com.fliplet.empty-state-container"].visible,
+body.mode-interact [data-widget-package="com.fliplet.empty-state-container"] {
+  display: block;
+}
